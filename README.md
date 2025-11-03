@@ -188,6 +188,7 @@ A: 檢查 Python 環境和網絡連接，腳本會自動檢測 pip 或 pip3。
 
 開始使用：
 
-bash
+```bash
 # 嘗試分析您的第一個項目！
-```python structure_analyzer.py -d /path/to/your/project -o deploy.sh --skip-binary```
+python structure_analyzer.py -d /path/to/your/project -o deploy.sh --skip-binary
+```
